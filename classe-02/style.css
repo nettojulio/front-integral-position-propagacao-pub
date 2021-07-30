@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #E6E3CA;
+}
+
+.text-1, .text-2 {
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+
+    width: 1033px;
+    margin: 0 auto;
+
+    color: #1F1F1F;
+    
+    margin-bottom: 76px;
+}
+
+.text-1 {
+    margin-top: 146px;
+}
+
+.agregador {
+    position: relative;
+}
+
+.help-button {
+    background-color: #1291D8;
+    border-radius: 50%;
+    padding: 32px 40px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.help-quotes {
+    width: 432px;
+    height: 457px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(17, 145, 216, 0.12);
+    border-radius: 12px;
+
+    position: fixed;
+    bottom: 160px;
+    right: 60px;
+    font-family: 'Open Sans';
+}
+
+.help-quotes h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 57px;
+
+    margin: 40px 0 41px 50px;
+}
+
+.help-quotes h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    margin-left: 50px ;
+}
+
+.help-quotes p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    margin: 12px 65px 0 50px;
+}
+
+.hide {
+    display: none;
+}
